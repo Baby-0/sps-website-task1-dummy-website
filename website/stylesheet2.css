@@ -1,0 +1,106 @@
+body{
+    background-color: white;
+    margin: 0px;
+    font-family: "poppins";
+    font-size: 14px;
+}
+#header{
+    background-color: black;
+    height: 60px;
+}
+#header h2{
+    color: white;
+    margin: 20px;
+    display: inline;
+    position: relative;
+    top: 20%;
+    left: 5px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#header ul{
+    text-align: right;
+    text-size-adjust: none;
+    position: relative;
+    bottom:25pX;
+    right:20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+   }
+#header ul li {
+    display: inline;
+    position: relative;
+    
+}
+#header ul li a {
+    margin: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.main {
+    
+    margin:10px;
+    margin-bottom: -4px;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+h3 {
+    color: white;
+    font-family: Arial  
+}
+.images {
+    float: none;
+    padding-left: 5px;
+    width:100px ;
+}
+.main1 {
+    margin-bottom: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+    width: 80%;
+    font-size: 110%;
+    background-color: black;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.25);
+    position: relative;
+    left:10%;
+    top: 30px;
+    right: 10%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+
+}
+#footer{
+    background-color: black;
+    height: 200px;
+    color: white;
+    text-align: center;
+    text-align-last:none;
+    font-size: 90%;
+    
+   
+}
+#footer ul {
+    
+    background-color: black;
+    height: 100px; width: 300px;
+    color: white;
+    text-align: left;
+    margin: 25px;
+    font-size: 50%;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
